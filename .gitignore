@@ -1,0 +1,10 @@
+/venv/
+/**/.pytest_cache
+/**/__pycache__
+/build/
+/.idea/
+default.yaml
+**/tmp*
+/work_data/
+# 忽略登录状态文件，但保留目录结构
+/auth_data/*.json

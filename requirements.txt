@@ -1,0 +1,3 @@
+git+https://gitee.com/prehisle_admin/olymat.git
+git+https://gitee.com/prehisle_admin/olymat_comm.git
+playwright>=1.40.0
