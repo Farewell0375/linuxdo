@@ -2,7 +2,7 @@ import logging
 import time
 
 
-def scroll_page_incrementally(page, scroll_increment=200, pause_time=2):
+def scroll_page_incrementally(page, scroll_increment=300, pause_time=5):
     """
     逐步向下滚动页面，直到到达底部并且没有新内容加载。
 
@@ -52,4 +52,4 @@ def test_go(page):
         logging.info(url)
         page.goto("https://linux.do" + url, timeout=30000)
         time.sleep(1)
-        scroll_page_incrementally(page, scroll_increment=500, pause_time=1.5)
+        scroll_page_incrementally(page, scroll_increment=300, pause_time=5)
